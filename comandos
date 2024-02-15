@@ -1,0 +1,9 @@
+
+ ❯❯❯ git clone --single-branch -b starter git@github.com:safak/react-admin-ui.git .
+
+ ❯❯❯ yarn
+ (para instalar las librerias, no es necesario escribir yarn install)
+
+ ❯❯❯ yarn dev
+ ❯❯❯ yarn run dev
+ (ambas son válidas)
