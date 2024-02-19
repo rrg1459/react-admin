@@ -3,3 +3,7 @@ This is a guide on how to develop a dashboard in React from the [https://github.
 
 ❯❯❯ `node --version`  
 v18.17.0
+
+
+Add script for build components in the terminal  
+In /script
