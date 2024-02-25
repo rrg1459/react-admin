@@ -3,11 +3,12 @@
 .home {
   display: grid;
   gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
 
   .box {
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid $soft-bg;
+    border: 2px solid $soft-bg;
   }
 
 }
