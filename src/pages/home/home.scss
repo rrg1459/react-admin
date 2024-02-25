@@ -1,6 +1,8 @@
 @import "../../styles/variables.scss";
 
 .home {
+  display: grid;
+  gap: 20px;
 
   .box {
     padding: 20px;
