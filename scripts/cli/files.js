@@ -8,12 +8,12 @@ export const files = [filesInterface.component, filesInterface.css];
 export const filesInfo = {
   [filesInterface.component]: {
     name: (name) => `${name}.tsx`,
-    content: (name, nameKebabCase, camelCaseName) => (
+    content: (name, camelCaseName) => (
       `import './${camelCaseName}.scss';\n` +
       '\n' +
       `const ${name} = () => {\n` +
       '  return (\n' +
-      `    <div className="${nameKebabCase}">\n` +
+      `    <div className="${camelCaseName}">\n` +
       `      ${name}\n` +
       '    </div>\n' +
       '  );\n' +
@@ -24,9 +24,10 @@ export const filesInfo = {
   },
   [filesInterface.css]: {
     name: (name) => `${name}.scss`,
-    content: (_name, nameKebabCase) => (
-      `.${nameKebabCase} {\n` +
+    content: (_name, camelCaseName) => (
+      `.${camelCaseName} {\n` +
       '  background-color: #fbeeff;\n' +
+      '  color: #000;\n' +
       '}\n'
     ),
   },

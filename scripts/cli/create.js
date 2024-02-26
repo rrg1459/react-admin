@@ -38,7 +38,7 @@ const createFile = (typeFile, name, path) => {
   const finalName = typeFile === 'css' ? camelCaseName : name;
 
   const file = `${path}/${filesInfo[typeFile].name(finalName)}`;
-  const content = filesInfo[typeFile].content(name, nameKebabCase, camelCaseName);
+  const content = filesInfo[typeFile].content(name, camelCaseName);
 
   console.info(`Creating "${typeFile}" in ${file}`);
   fs.writeFileSync(file, content);

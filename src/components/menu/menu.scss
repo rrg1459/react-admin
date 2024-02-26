@@ -13,9 +13,6 @@
       color: $soft-color;
       text-transform: uppercase;
 
-      // @include lg{
-      //   display: none;
-      // }
     }
 
     .listItem {
@@ -29,11 +26,6 @@
         background-color: $soft-bg;
       }
 
-    //   .listItemTitle{
-    //     @include lg{
-    //       display: none;
-    //     }
-    //   }
     }
   }
 }
