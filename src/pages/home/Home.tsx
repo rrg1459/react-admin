@@ -38,10 +38,10 @@ const Home = () => {
         <BigChartBox />
       </div>
       <div className="box box8">
-        <BarChartBox />
+        <BarChartBox {...barChartBoxVisit} />
       </div>
       <div className="box box9">
-        <BarChartBox />
+        <BarChartBox {...barChartBoxRevenue} />
       </div>
     </div>
   )

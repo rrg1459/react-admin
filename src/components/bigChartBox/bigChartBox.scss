@@ -1,4 +1,12 @@
 .bigChartBox {
-  background-color: #fbeeff;
-  color: #000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .chart {
+    width: 100%;
+    height: 300px;
+  }
 }
