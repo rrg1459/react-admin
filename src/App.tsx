@@ -8,6 +8,8 @@ import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
 import Login from "./pages/login/Login";
 import "./styles/global.scss";
+import Product from "./pages/product/Product";
+import User from "./pages/user/User";
 
 function App() {
 
@@ -38,8 +40,16 @@ function App() {
           element: <Home />,
         },
         {
+          path: "/users/:id",
+          element: <User />,
+        },
+        {
           path: "/users",
           element: <Users />,
+        },
+        {
+          path: "/products/:id",
+          element: <Product />,
         },
         {
           path: "/products",
