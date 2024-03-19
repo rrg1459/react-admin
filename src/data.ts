@@ -625,7 +625,7 @@ export const singleUser = {
       time: "2 weeks ago",
     },
     {
-      text: "John Doe reviewed a product",
+      text: "John Doe reviewed a product 1",
       time: "1 month ago",
     },
     {
@@ -633,7 +633,7 @@ export const singleUser = {
       time: "1 month ago",
     },
     {
-      text: "John Doe reviewed a product",
+      text: "John Doe reviewed a product 2",
       time: "2 months ago",
     },
   ],
